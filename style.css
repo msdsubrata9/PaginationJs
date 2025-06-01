@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products__single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  margin: 0 auto;
+}
+
+button {
+  padding: 20px 30px;
+  background-color: aliceblue;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(175, 198, 219);
+}
+
+.pagination_selected {
+  background-color: aqua;
+}
